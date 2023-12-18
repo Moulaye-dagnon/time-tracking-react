@@ -1,0 +1,48 @@
+.profil{
+	border-radius: 15px;
+	background: #1C204B;
+}
+.pseudo{
+	border-radius: 15px;
+	background: #5747EA;
+	padding: 10px;
+	position: relative;
+}
+.profil-img{
+	width: 64px;
+	height: 64px;
+	border: 4px solid #fff;
+	border-radius: 100%;
+	position: absolute;
+	left: 32px;
+	top: 32px;
+}
+img{
+	width: 100%;
+}
+.pseudo-desc{
+	margin-top: 36px;
+	margin-left: 116px;
+	margin-bottom: 40px;
+}
+.pseudo-report{
+	color: #BBC0FF;
+	font-size: 0.83rem;
+	margin-bottom: 5px;
+}
+.pseudo-name{
+	color: #FFF;
+	font-size: 1.33rem;
+}
+.nav{
+	padding: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav a{
+	text-decoration: none;
+	color: #7078C9;
+}
+.nav a.active{
+	color: #fff;
+}

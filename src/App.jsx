@@ -1,10 +1,13 @@
 import './App.css'
+import { Profil } from './Profil'
 
 function App() {
 
   return (
-   <div>
-	<h1>hello</h1>
+   <div className='container'>
+	<h1>Mon projet</h1>
+	
+	<Profil/>
    </div>
   )
 }
