@@ -1,0 +1,34 @@
+
+.Task{
+	margin: 24px 0;
+	padding-top: 38px;
+	border-radius: 15px;
+	background: right top url('../public/images/icon-work.svg') no-repeat;
+}
+.content{
+	border-radius: 15px;
+	background: #1C204B;
+	padding: 34px 24px;
+	position: relative;
+}
+.img-menu{
+	width: 21px;
+	position: absolute;
+	top: 37px;
+	right: 24px;
+}
+.title{
+	margin-bottom: 7px;
+	font-weight: 500;
+}
+.current-time{
+	font-weight: 300;
+	font-size: 1.78rem;
+}
+.last-time{
+	position: absolute;
+	bottom: 38px ;
+	right: 23px;
+	color: #BBC0FF;
+	font-size: 0.83rem;
+}
