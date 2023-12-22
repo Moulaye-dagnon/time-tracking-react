@@ -2,7 +2,7 @@ import "./task.css";
 export function Task({ title, currentHours, lastHour, colors, backgroundImg }) {
   const Imgbackground = `url(${backgroundImg})`;
   const style = {
-    background: `top right 20px ${Imgbackground}  no-repeat`,
+    background: `top -4px right 20px ${Imgbackground}  no-repeat`,
     backgroundColor: colors,
   };
   return (

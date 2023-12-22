@@ -36,7 +36,7 @@
         "previous": 29
       }
     },
-	"BackgroundImg" : "../public/images/icon-play.svg",
+	"BackgroundImg" : "./images/icon-play.svg",
 	"color" : " #55C2E6"
 
   },
