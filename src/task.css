@@ -1,9 +1,8 @@
 
 .Task{
 	margin: 24px 0;
-	padding-top: 38px;
+	padding-top:45px;
 	border-radius: 15px;
-	background: right top url('../public/images/icon-work.svg') no-repeat;
 }
 .content{
 	border-radius: 15px;
@@ -31,4 +30,20 @@
 	right: 23px;
 	color: #BBC0FF;
 	font-size: 0.83rem;
+}
+@media only screen and (min-width:900px) {
+	.Task{
+		margin: 0;
+	}
+	.content{
+		display: flex;
+		flex-direction: column;
+	}
+	.current-time{
+		margin: 25px 0 5px 0 ;
+		font-size: 3.1rem;
+	}
+	.last-time{
+		position: static;	
+	}
 }

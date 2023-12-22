@@ -1,6 +1,7 @@
 import './Profil.css'
 import pseudo from '../public/images/image-jeremy.png'
-export function Profil(){
+export function Profil({page}){
+	
 	return <div className="profil">
 		<div className="pseudo">
 			<div className='profil-img'>
@@ -12,9 +13,9 @@ export function Profil(){
 			</div>
 		</div>
 		<div className='nav'>
-			<a href="#Daily" >Daily</a>
-			<a href="#Weekly" className='active'>Weekly</a>
-			<a href="#Monthly">Monthly</a>
+			<a  href="#Daily" className={`${page == 'Daily' ? 'active': ''}`} >Daily</a>
+			<a  href="#Weekly" className={`${page == 'Weekly' ? 'active': ''}`}>Weekly</a>
+			<a  href="#Monthly" className={`${page == 'Monthly' ? 'active': ''}`}>Monthly</a>
 		</div>
 	</div>
 }

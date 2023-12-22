@@ -1,7 +1,15 @@
 
 .container{
-	background: #0E1323;
+	padding: 81px 24px;
 }
 h1{
 	color: #fff;
+}
+@media only screen and (min-width : 900px)  {
+	.container{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 30px 30px;
+	}
 }

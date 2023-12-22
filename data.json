@@ -14,7 +14,11 @@
         "current": 103,
         "previous": 128
       }
-    }
+
+    }, 
+	"BackgroundImg" : "../public/images/icon-work.svg",
+	"color" : " #FF8B64"
+	
   },
   {
     "title": "Play",
@@ -31,7 +35,10 @@
         "current": 23,
         "previous": 29
       }
-    }
+    },
+	"BackgroundImg" : "../public/images/icon-play.svg",
+	"color" : " #55C2E6"
+
   },
   {
     "title": "Study",
@@ -48,7 +55,10 @@
         "current": 13,
         "previous": 19
       }
-    }
+    },
+	"BackgroundImg" : "../public/images/icon-study.svg",
+	"color" : " #FF5E7D"
+
   },
   {
     "title": "Exercise",
@@ -65,7 +75,10 @@
         "current": 11,
         "previous": 18
       }
-    }
+    },
+	"BackgroundImg" : "../public/images/icon-exercise.svg",
+	"color" : " #4BCF82"
+
   },
   {
     "title": "Social",
@@ -82,7 +95,10 @@
         "current": 21,
         "previous": 23
       }
-    }
+    },
+	"BackgroundImg" : "../public/images/icon-social.svg",
+	"color" : " #7335D2"
+
   },
   {
     "title": "Self Care",
@@ -99,6 +115,8 @@
         "current": 7,
         "previous": 11
       }
-    }
+    },
+	"BackgroundImg" : "../public/images/icon-self-care.svg",
+	"color" : " #F1C75B"
   }
 ]
