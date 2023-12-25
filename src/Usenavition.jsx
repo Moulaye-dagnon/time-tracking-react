@@ -9,6 +9,6 @@ export function UseNavigation(){
 		return ()=> removeEventListener('hashchange', handlehashNav)
 	}
 	) 
-	const name =  hash.replace('#', "") || 'Weekly'
+	const name =  hash.replace('#', "").toLowerCase() || 'weekly'
 	return {page : name}
 }

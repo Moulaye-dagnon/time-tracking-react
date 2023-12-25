@@ -13,9 +13,9 @@ export function Profil({page}){
 			</div>
 		</div>
 		<div className='nav'>
-			<a  href="#Daily" className={`${page == 'Daily' ? 'active': ''}`} >Daily</a>
-			<a  href="#Weekly" className={`${page == 'Weekly' ? 'active': ''}`}>Weekly</a>
-			<a  href="#Monthly" className={`${page == 'Monthly' ? 'active': ''}`}>Monthly</a>
+			<a  href="#daily" className={`${page == 'daily' ? 'active': ''}`} >Daily</a>
+			<a  href="#weekly" className={`${page == 'weekly' ? 'active': ''}`}>Weekly</a>
+			<a  href="#monthly" className={`${page == 'monthly' ? 'active': ''}`}>Monthly</a>
 		</div>
 	</div>
 }

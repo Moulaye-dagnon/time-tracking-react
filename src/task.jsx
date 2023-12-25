@@ -6,7 +6,7 @@ export function Task({ title, currentHours, lastHour, colors, backgroundImg }) {
     backgroundColor: colors,
   };
   return (
-    <div className="Task" style={style}>
+    <div className="Task"  style={style}>
       <div className="content">
         <div className="title">{title}</div>
         <div className="current-time">{currentHours} hrs</div>

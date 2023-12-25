@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./public/images/Screenshot_of_my_website.png)
+![](./public/images/screenshot_website_width_1440px.png)
 
 ### Links
 
